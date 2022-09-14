@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "remix-app-template",
+  "description": "",
+  "license": "",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production remix build",
+    "dev": "cross-env NODE_ENV=development remix dev",
+    "start": "cross-env NODE_ENV=production remix-serve build"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.2",
+    "@chakra-ui/styled-system": "^2.3.1",
+    "@chakra-ui/system": "^2.2.9",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@remix-run/node": "^1.7.0",
+    "@remix-run/react": "^1.7.0",
+    "@remix-run/serve": "^1.7.0",
+    "framer-motion": "^7.3.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.7.0",
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "^18.0.6",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.8.3"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false
+}
